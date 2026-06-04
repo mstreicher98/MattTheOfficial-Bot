@@ -1,0 +1,17 @@
+{
+  "name": "MattTheOfficial-Bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon . --ignore src/data/",
+    "deploy": "node src/scripts/deploy.js"
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "nodemon": "^3.1.14"
+  }
+}
